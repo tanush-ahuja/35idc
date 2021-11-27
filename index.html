@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <!--Add your Firsebase Config here below. -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDPt3bMzI7Cp7qDxrRMO1EtCcT5rZna7A8",
+        authDomain: "hot-air-balloon-72d80.firebaseapp.com",
+        projectId: "hot-air-balloon-72d80",
+        storageBucket: "hot-air-balloon-72d80.appspot.com",
+        messagingSenderId: "836307376068",
+        appId: "1:836307376068:web:fa8b0b8ca67ca37109f691"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
